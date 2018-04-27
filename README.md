@@ -1,9 +1,9 @@
 # Mastertables
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=website&style=for-the-badge)](https://mastertables.athento.com)
-[![PyPI](https://img.shields.io/pypi/v/nine.svg?style=for-the-badge)](#)
-[![PyPI - Status](https://img.shields.io/pypi/status/Django.svg?style=for-the-badge)](#)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg?style=for-the-badge)](#)
+[![PyPI](https://img.shields.io/pypi/v/mastertables.svg?style=for-the-badge)](https://pypi.org/project/mastertables)
+[![PyPI - Status](https://img.shields.io/pypi/status/mastertables.svg?style=for-the-badge)](https://pypi.org/project/mastertables)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mastertables.svg?style=for-the-badge)](https://pypi.org/project/mastertables)
 
 A Python package to interact with [Mastertables](https://mastertables.athento.com).
 
