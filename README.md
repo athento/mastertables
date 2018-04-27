@@ -13,21 +13,39 @@ This package provides a very simple way of getting data from your mastertables t
 
 ```python
 # module
-import mastertables
+from mastertables import mastertables
+
 
 # mastertables client instantiation
-# mastertables.MasterTablesClient("<team_api_key>")
+# usage:
+#   mastertables.MasterTablesClient("<team_api_key>")
+
 mt = mastertables.MasterTablesClient("OAIV9839AF893H923ONWAN3IGNAWNAUNEGIU")
 
+
 # get vocabulary
-# mastertables.MasterTablesClient.get_vocabulary("<vocabulary_uuid>" [, category="<category>"])
+# usage:
+#   mastertables.MasterTablesClient.get_vocabulary("<vocabulary_uuid>" [, category="<category>"])
+# output:
+#   {u'foo': u'bar', u'asdf': u'qwer'}
+
 print(mt.get_vocabulary("1234abcd-12ab-34cd-56ef-12345678abcd"))
 
+
 # get vocabulary reverse (value:key, instead of key:value)
-# mastertables.MasterTablesClient.get_vocabulary_reverse("<vocabulary_uuid>" [, category="<category>"])
+# usage:
+#   mastertables.MasterTablesClient.get_vocabulary_reverse("<vocabulary_uuid>" [, category="<category>"])
+# output:
+#   {u'bar': u'foo', u'qwer': u'asdf'}
+
 print(mt.get_vocabulary_reverse("1234abcd-12ab-34cd-56ef-12345678abcd"))
 
+
 # get vocabulary values
-# mastertables.MasterTablesClient.get_values("<vocabulary_uuid>")
+# usage:
+#   mastertables.MasterTablesClient.get_values("<vocabulary_uuid>")
+# output:
+#   [u'foo', u'asdf']
+
 print(mt.get_values("1234abcd-12ab-34cd-56ef-12345678abcd"))
 ```
