@@ -5,7 +5,7 @@
 [![PyPI - Status](https://img.shields.io/pypi/status/Django.svg?style=for-the-badge)](#)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg?style=for-the-badge)](#)
 
-A python package to interact with [Mastertables](https://mastertables.athento.com).
+A Python package to interact with [Mastertables](https://mastertables.athento.com).
 
 This package provides a very simple way of getting data from your mastertables through the public *Rest API*.
 
