@@ -9,6 +9,62 @@ A Python package to interact with [Mastertables](https://mastertables.athento.co
 
 This package provides a very simple way of getting data from your mastertables through the public *Rest API*.
 
+## Installation
+
+### Install from PyPI (recommended)
+
+Just run the command below from the CLI:
+
+```shell
+pip install mastertables
+```
+
+To add the package to your local `requirements.txt` run:
+
+```shell
+pip freeze > requirements.txt
+```
+
+### Install from repo
+
+You can install Mastertables from the Github repo:
+
+```shell
+pip install git+https://github.com/athento/mastertables
+```
+
+### Install from source
+
+Alternatively, you can even install it from the sources:
+
+```shell
+git clone https://github.com/athento/mastertables
+cd mastertables
+pip install .
+```
+
+## Updating
+
+### Update from PyPI
+
+```shell
+pip install mastertables --upgrade
+```
+
+### Update from repo
+
+```shell
+pip install git+https://github.com/athento/mastertables --upgrade
+```
+
+### Update from source
+
+```shell
+cd /path/to/mastertables/repo
+git pull
+pip install . --upgrade
+```
+
 ## API reference
 
 ```python

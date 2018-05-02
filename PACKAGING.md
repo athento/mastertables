@@ -59,7 +59,7 @@ After building the project, a new folder should be created at `dist/`, containin
 To finish it all, run the command below to upload your distribution to PyPI:
 
 ```shell
-twine upload dist/*
+python -m twine upload dist/*
 ```
 
 You will need PyPI credentials in order to be able to upload the package.
