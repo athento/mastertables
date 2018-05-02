@@ -9,7 +9,7 @@ A Python package to interact with [Mastertables](https://mastertables.athento.co
 
 This package provides a very simple way of getting data from your mastertables through the public *Rest API*.
 
-## API
+## API reference
 
 ```python
 # module
@@ -49,3 +49,7 @@ print(mt.get_vocabulary_reverse("1234abcd-12ab-34cd-56ef-12345678abcd"))
 
 print(mt.get_values("1234abcd-12ab-34cd-56ef-12345678abcd"))
 ```
+
+## Packaging and distributing
+
+[Click on this link](https://github.com/athento/mastertables/blob/master/PACKAGING.md) to read the manual on how to package and upload mastertables to PyPI.
