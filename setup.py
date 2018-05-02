@@ -50,7 +50,7 @@ setup(
         'Intended Audience :: Science/Research',
         'Intended Audience :: System Administrators',
         'Intended Audience :: Telecommunications Industry',
-        'Operating System :: OS Independent'
+        'Operating System :: OS Independent',
         'Topic :: Database :: Database Engines/Servers',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules',
