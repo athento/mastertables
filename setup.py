@@ -15,7 +15,7 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/athento/mastertables',
     author='Athento',
-    author_email='change.me@athento.com',
+    author_email='adm@athento.com',
     keywords='api rest mastertables development data athento',
     install_requires=['requests'],
     packages=['mastertables'],
