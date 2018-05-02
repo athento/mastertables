@@ -29,8 +29,6 @@ setup(
     project_urls={
         'Athento': 'https://athento.com',
         'Mastertables': 'https://mastertables.athento.com',
-        'PyPI Package': 'https://pypi.org/project/mastertables',
-        'Source': 'https://github.com/athento/mastertables',
         'Bug Reports': 'https://github.com/athento/mastertables/issues',
     },
 
