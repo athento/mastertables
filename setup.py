@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='mastertables',
-    version='0.1.0',  # should comply with https://semver.org/
+    version='0.1.1',  # should comply with https://semver.org/
     description='A Python package to interact with the mastertables.athento.com public API',
     long_description=long_description,
     long_description_content_type='text/markdown',
