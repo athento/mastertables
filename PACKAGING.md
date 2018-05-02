@@ -17,6 +17,10 @@ pip install wheel
 Before building the new distribution version, update the following fields in `setup.py`:
 
 - `version`: should comply with [semver.org](https://semver.org/).
+    - Given a version number `MAJOR.MINOR.PATCH`, increment the:
+        - `MAJOR` version when you make incompatible API changes,
+        - `MINOR` version when you add functionality in a backwards-compatible manner, and
+        - `PATCH` version when you make backwards-compatible bug fixes.
 - `classifiers >> Development Status`: see `setup.py` for more info.
 
 Push your changes to Github.
