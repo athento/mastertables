@@ -102,3 +102,6 @@ ENV/
 
 # testing scripts
 *.test.py
+
+# pycharm
+.idea/

@@ -104,6 +104,15 @@ print(mt.get_vocabulary_reverse("1234abcd-12ab-34cd-56ef-12345678abcd"))
 #   [u'foo', u'asdf']
 
 print(mt.get_values("1234abcd-12ab-34cd-56ef-12345678abcd"))
+
+
+# get vocabulary entity value
+# usage:
+#   mastertables.MasterTablesClient.get_value("<vocabulary_uuid>", "<entity_key>" [, index=<index>])
+# output:
+#   u'bar'
+
+print(mt.get_value("1234abcd-12ab-34cd-56ef-12345678abcd", "foo", 0))
 ```
 
 ## Packaging and distributing

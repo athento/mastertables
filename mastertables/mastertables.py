@@ -11,10 +11,9 @@ class MasterTablesClient:
     host = HOST
     api_key = "default"
 
-
     def __init__(self, api_key, host=HOST):
+        self.host = host
         self.api_key = api_key
-
 
     @vocabulary_cache
     def get_vocabulary(self, vocabulary, category=None):
@@ -39,14 +38,21 @@ class MasterTablesClient:
             raise AttributeError
         return res
 
-
     def get_vocabulary_reverse(self, vocabulary, category=None):
         res = self.get_vocabulary(vocabulary)
         res = dict((v,k) for k,v in res.iteritems())
         return res
 
-
     def get_values(self, vocabulary):
         res = self.get_vocabulary(vocabulary)
         res = res.keys()
+        return res
+
+    def get_value(self, vocabulary, key, index=0):
+        res = self.get_vocabulary(vocabulary)
+        try:
+            res = res[key].split(',')[index]
+        except Exception as e:
+            res = 'Incorrect params (' + str(e.message) + ')'
+
         return res
