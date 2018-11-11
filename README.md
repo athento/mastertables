@@ -22,7 +22,7 @@ pip install mastertables
 To add the package to your local `requirements.txt` run:
 
 ```shell
-pip freeze > requirements.txt
+pip freeze | grep 'mastertables' >> requirements.txt
 ```
 
 ### Install from repo
