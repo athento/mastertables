@@ -1,7 +1,7 @@
 import json
 import requests
 
-from cache import vocabulary_cache
+from .cache import vocabulary_cache
 
 
 HOST = "https://mastertables.athento.com/"
